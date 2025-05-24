@@ -1,3 +1,7 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
 html, body{
     background-color: hsl(212, 45%, 89%);
     height: 100%;
@@ -19,14 +23,13 @@ img{
 }
 
 h2{
-    font-family: 'Outfit', sans-serif;
     font-weight: 700;
 }
 
 p{
     font-size: 15px;
     font-weight: 400;
-    color: rgba(0,0,0, 0.45);
+    color: rgba(0,0,0, 0.3);
     line-height: 1.4em;
     margin-bottom: 25px;
 }

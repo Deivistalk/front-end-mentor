@@ -22,8 +22,9 @@ img{
     margin-bottom: 10px;
 }
 
-h2{
+h1{
     font-weight: 700;
+    font-size: 1.5em;
 }
 
 p{
@@ -49,6 +50,3 @@ p{
     width: 92%;
     text-align: center;
 }
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }

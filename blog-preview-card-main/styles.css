@@ -31,7 +31,8 @@ main{
     display: flex;
     flex-direction: column;
     width: 325px;
-    box-shadow: 6px 6px 0 1px var(--Gray-950);
+    border: solid 1px var(--Gray-950);
+    box-shadow: 4px 6px 0 2px var(--Gray-950);
 }
 
 h1{
@@ -66,6 +67,7 @@ h1:hover{
 .card-content{
     margin: 0;
     color: var(--Gray-500);
+    line-height: 1.5em;
 }
 
 .card-author{

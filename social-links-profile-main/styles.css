@@ -1,7 +1,103 @@
+/* font start */
+@font-face {
+        font-family: 'Inter';
+        src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+        font-weight: 400;
+}
+
+@font-face {
+        font-family: 'Inter-semibold';
+        src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+}
+
+@font-face {
+        font-family: 'Inter-bold';
+        src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+        font-weight: 700;
+}
+
+* {
+        font-family: 'Inter', sans-serif;
+}
+
+.bold{
+        font-family: 'Inter-bold', sans-serif;
+}
+
+.semi-bold{
+        font-family: 'Inter-semibold', sans-serif;
+}
+/* font end */
+
 :root{
         --Green: hsl(75, 94%, 57%);
         --White: hsl(0, 0%, 100%);
         --Grey-700: hsl(0, 0%, 20%);
         --Grey-800: hsl(0, 0%, 12%);
         --Grey-900: hsl(0, 0%, 8%);
+}
+
+html, body{
+        height: 100%;
+        background-color: var(--Grey-900);
+        padding: 0;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        font-size: 14px;
+}
+
+.card{
+        background-color: var(--Grey-800);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+        width: 320px;
+}
+
+card, img{
+        border-radius: 50%;
+        height: 72px;
+        width: 72px;
+        margin-top: 36px;
+}
+
+h2{
+        color: var(--White);
+        font-size: 1.5em;
+        margin: 0;
+        padding-top: 24px;
+}
+
+.sub-title{
+        color: var(--Green);
+        font-family: 'Inter', sans-serif;
+        margin: 10px;
+}
+
+section{
+        color: var(--White);
+        padding-bottom: 24px;
+        font-weight: lighter;
+}
+
+.links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        gap: 12px;
+        padding-bottom: 36px;
+}
+
+a{
+        padding: 8px;
+        background-color: var(--Grey-700);
+        color: var(--White);
+        width: 100%;
+        font-size: 0.9rem;
+        text-align: center;
+        border-radius: 4px;
 }
